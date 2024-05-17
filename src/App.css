@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b3e0ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Container h1 {
+  text-transform: capitalize;
+}
+
+.counter {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.increment {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.decrement {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
